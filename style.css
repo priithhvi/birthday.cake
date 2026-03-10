@@ -1,0 +1,34 @@
+body{
+font-family: Arial;
+background:#111;
+color:white;
+text-align:center;
+}
+
+.content{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.webcam video{
+width:300px;
+border-radius:10px;
+}
+
+.cake-area{
+position:relative;
+}
+
+.cake{
+width:250px;
+}
+
+.match{
+position:absolute;
+width:60px;
+top:0;
+left:0;
+pointer-events:none;
+}
